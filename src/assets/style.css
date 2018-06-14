@@ -1,0 +1,357 @@
+html, body
+{
+	font-family: "Open Sans", Verdana, Tahoma, Arial, Sans-serif;
+	margin: 0; padding: 0;
+	background: #e0e0e0;
+	color: #020202;
+	min-height: 100%;
+}
+
+header
+{
+	display: block;
+	width: 100%;
+	border: none;
+}
+
+main
+{
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+a
+{
+	color: #020202;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Open Sans", Verdana, Tahoma, Sans-Serif;
+	font-weight: 300;
+}
+
+.error
+{
+	color: #cf5050;
+	text-align: center;
+}
+
+.sysmessage
+{
+	box-sizing: border-box;
+	padding: 5px;
+	width: 100%;
+	text-align: center;
+	font-size: 18pt;
+	font-weight: 300;
+}
+
+.sysmessage.info
+{
+	color: #2454b5;
+}
+
+.sysmessage.warning
+{
+	color: #969b07;
+}
+
+.sysmessage.error
+{
+	color: #771d1d;
+}
+
+.pd-popup
+{
+	position: fixed;
+	top: 50%;
+	left: 0;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 100%;
+	padding: 5px;
+	background: #020202;
+	color: #f5f5f5;
+	display: none;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.pd-container
+{
+	width: 800px;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.pd-popup h1
+{
+	font-family: "Open Sans", "Ubuntu", Verdana, Tahoma, Arial, Sans-Serif;
+	margin: 3px;
+	font-weight: 300;
+}
+
+#message-buttons-container
+{
+	text-align: right;
+}
+
+.pd-button
+{
+	display: inline-block;
+	border: 1px solid #f5f5f5;
+	width: 100px;
+	padding: 5px;
+	margin: 5px;
+	color: #f5f5f5;
+	text-decoration: none;
+	text-align: center;
+}
+
+
+
+#container
+{
+	width: 800px;
+	margin: 0 auto;
+	background: #f5f5f5;
+	min-height: 100%;
+}
+
+#logo img
+{
+	height: 30px;
+}
+
+
+#table-header
+{
+	max-height: 70px;
+	width: 100%;
+	padding: 0px;
+	border-spacing: 0;
+
+	background: #020202;
+	color: #f5f5f5;
+
+}
+
+
+#table-header a
+{
+	text-decoration: none;
+	color: #f5f5f5;
+}
+
+#table-header .menu-item-cell
+{
+	vertical-align: center;
+	border-bottom: 4px solid transparent;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#table-header .menu-item-cell.active, #table-header .menu-item-cell:hover
+{
+	border-bottom: 4px solid #00a2e8;
+}
+
+#logo
+{
+	width: 60px;
+	height: 60px;
+	box-sizing: border-box;
+	padding: 5px;
+	text-align: center;
+}
+
+#logo a
+{
+	display: block;
+	width: 60px;
+}
+
+#menu-spacer, #menu-spacer:hover, #logo
+{
+	vertical-align: center;
+	border-bottom: 2px solid transparent!important;
+	background: transparent!important;
+}
+
+#menu-spacer
+{
+	width: 100%;
+}
+
+
+.menu-item
+{
+	text-decoration: none;
+	box-sizing: border-box;
+	padding: 10px;
+	float: left;
+}
+
+
+/* --- CONTENT --- */
+
+.info-title
+{
+	font-size: 21pt;
+	font-weight: 300;
+}
+
+
+.add-item, .item-track, .info-block, .info-title
+{
+	box-sizing: border-box;
+	padding: 5px;
+	background: #f0f0f0;
+	width: 100%;
+
+	margin: 5px;
+}
+
+.add-item
+{
+	cursor: pointer;
+}
+
+.add-item h2
+{
+	display: block;
+	text-align: center;
+}
+
+.add-item-form
+{
+	display: none;
+	margin: 3px;
+}
+
+#search-track
+{
+	display: block;
+}
+
+.add-item input, .item-track-tools input, button, select
+{
+	display: block;
+	width: 100%;
+	font-family: "Open Sans", "Noto", "Ubuntu", Verdana, Tahoma, Arial, Sans-Serif;
+	font-size: 11pt;
+	margin-bottom: 5px;
+	border: none;
+
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+input[type="text"], input[type="password"], select
+{
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #303030;
+}
+
+input[type="submit"], button, input[type="time"]
+{
+	border: none;
+	background: #e5e5e5;
+	cursor: pointer;
+}
+
+.item-track-name
+{
+	cursor: pointer;
+	font-size: 16pt;
+	font-weight: 300;
+}
+.item-track-tools
+{
+	display: none;
+}
+
+.schedule-timetable
+{
+	text-align: center;
+	width: 100%;
+	margin: 5px;
+}
+
+.schedule-timetable th, .item-action-title
+{
+	font-weight: 300;
+}
+
+.schedule-timetable.leftalign
+{
+	text-align: left;
+}
+
+
+.toolkey
+{
+	width: 30px;
+}
+
+
+
+#toast-messages-wrapper
+{
+	position: fixed;
+	top: 0;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+
+	width: 800px;
+	box-sizing: border-box;
+}
+
+.toast-message
+{
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	font-size: 18pt;
+	font-weight: 300;
+	display: none;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.toast-message.error
+{
+	background: #210000;
+	color: #fc0000;
+}
+
+.toast-message.warn
+{
+	background: #444404;
+	color: #fcfc11;
+}
+
+.toast-message.info
+{
+	background: #042944;
+	color: #00e5ff;
+}
+
+.schedule-server-time
+{
+	font-size: 16pt;
+	font-weight: 300;
+	text-align: center;
+}
+
+#main-server-time
+{
+	text-align: center;
+}

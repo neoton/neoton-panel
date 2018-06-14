@@ -1,0 +1,1 @@
+<div class="error"><?php echo($content['error_message']); ?></div>

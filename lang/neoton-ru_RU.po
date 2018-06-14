@@ -1,0 +1,407 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-06-14 22:54+0300\n"
+"PO-Revision-Date: 2018-06-14 23:05+0300\n"
+"Last-Translator: Asterleen <neoton@asterleen.com>\n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ../src\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: engine/template/endpoints.tpl:2
+msgid "Add an endpoint"
+msgstr "Добавить точку вещания"
+
+#: engine/template/endpoints.tpl:4 engine/template/endpoints.tpl:26
+msgid "endpoint name"
+msgstr "название"
+
+#: engine/template/endpoints.tpl:5
+msgid "IP address"
+msgstr "IP-адрес"
+
+#: engine/template/endpoints.tpl:6 engine/template/endpoints.tpl:28
+msgid "inbound port"
+msgstr "входящий порт"
+
+#: engine/template/endpoints.tpl:7 engine/template/endpoints.tpl:29
+msgid "mount point"
+msgstr "точка монирования"
+
+#: engine/template/endpoints.tpl:8 engine/template/endpoints.tpl:30
+#: engine/interface.php:63
+msgid "password"
+msgstr "пароль"
+
+#: engine/template/endpoints.tpl:9 engine/menu.php:17 engine/schedule.php:46
+msgid "Schedule"
+msgstr "Расписание"
+
+#: engine/template/endpoints.tpl:15
+msgid "create"
+msgstr "создать"
+
+#: engine/template/endpoints.tpl:24
+msgid "Edit an endpoint"
+msgstr "Редактировать точку"
+
+#: engine/template/endpoints.tpl:27
+msgid "Ip address"
+msgstr "IP-адрес"
+
+#: engine/template/endpoints.tpl:32 engine/template/library.search.tpl:19
+#: engine/template/library.tpl:29
+msgid "update"
+msgstr "обновить"
+
+#: engine/template/endpoints.tpl:35
+msgid "Set schedule"
+msgstr "Задать расписание"
+
+#: engine/template/endpoints.tpl:43
+msgid "set"
+msgstr "задать"
+
+#: engine/template/endpoints.tpl:45
+msgid "remove endpoint"
+msgstr "удалить точку"
+
+#: engine/template/header.tpl:51
+msgid "Cancel"
+msgstr "Отмена"
+
+#: engine/template/library.search.tpl:2 engine/template/library.tpl:12
+#: engine/library.php:65
+msgid "Search for a track"
+msgstr "Поиск композиции"
+
+#: engine/template/library.search.tpl:4 engine/template/library.tpl:14
+msgid "artist or title"
+msgstr "исполнитель или название"
+
+#: engine/template/library.search.tpl:5 engine/template/library.tpl:15
+msgid "search"
+msgstr "поиск"
+
+#: engine/template/library.search.tpl:16 engine/template/library.tpl:5
+#: engine/template/library.tpl:26
+msgid "artist"
+msgstr "исполнитель"
+
+#: engine/template/library.search.tpl:17 engine/template/library.tpl:6
+#: engine/template/library.tpl:27
+msgid "title"
+msgstr "название"
+
+#: engine/template/library.search.tpl:21
+msgid "remove track"
+msgstr "удалить"
+
+#: engine/template/library.tpl:2 engine/template/playlists.tpl:28
+msgid "Add a track"
+msgstr "Добавить композицию"
+
+#: engine/template/library.tpl:7
+msgid "upload"
+msgstr "загрузить"
+
+#: engine/template/library.tpl:24
+msgid "Edit the track metadata"
+msgstr "Редактировать метаданные"
+
+#: engine/template/library.tpl:31
+msgid "remove"
+msgstr "удалить"
+
+#: engine/template/main.tpl:2 engine/template/schedule.tpl:10
+msgid "Server time"
+msgstr "Время сервера"
+
+#: engine/template/playlists.tpl:2
+msgid "Add a playlist"
+msgstr "Добавить плейлист"
+
+#: engine/template/playlists.tpl:4 engine/template/schedule.tpl:5
+msgid "name"
+msgstr "название"
+
+#: engine/template/playlists.tpl:5 engine/template/schedule.tpl:6
+msgid "add"
+msgstr "добавить"
+
+#: engine/template/playlists.tpl:16
+msgid "Track"
+msgstr "Композиция"
+
+#: engine/template/playlists.tpl:22
+msgid "Remove this track"
+msgstr "Удаление композиции"
+
+#: engine/template/playlists.tpl:39
+msgid "Add this track"
+msgstr "Добавить композицию"
+
+#: engine/template/playlists.tpl:44
+msgid "Remove playlist"
+msgstr "Удалить плейлист"
+
+#: engine/template/schedule.tpl:3
+msgid "Add schedule"
+msgstr "Новое расписание"
+
+#: engine/template/schedule.tpl:19
+msgid "Start time"
+msgstr "Начало"
+
+#: engine/template/schedule.tpl:20
+msgid "Stop time"
+msgstr "Окончание"
+
+#: engine/template/schedule.tpl:21
+msgid "Playlist"
+msgstr "Плейлист"
+
+#: engine/template/schedule.tpl:29
+msgid "Remove this time frame"
+msgstr "Удалить это время срабатывания"
+
+#: engine/template/schedule.tpl:35
+msgid "Add time frame"
+msgstr "Добавить время срабатывания"
+
+#: engine/template/schedule.tpl:51
+msgid "remove schedule"
+msgstr "удалить расписание"
+
+#: engine/endpoints.php:18 engine/schedule.php:28
+msgid "This schedule does not exist"
+msgstr "Такого расписания не существует"
+
+#: engine/endpoints.php:25
+msgid "Bad endpoint name"
+msgstr "Неверное название точки вещания"
+
+#: engine/endpoints.php:32
+msgid "Bad endpoint IP address"
+msgstr "Неверный IP-адрес"
+
+#: engine/endpoints.php:39
+msgid "Bad mount point name"
+msgstr "Неверное имя точки монтирования"
+
+#: engine/endpoints.php:46
+msgid "Password cannot be empty or longer than 128 symbols"
+msgstr "Пароль не может пустым или длиннее 128 символов"
+
+#: engine/endpoints.php:53
+msgid "Bad inbound port"
+msgstr "Неверный входящий порт"
+
+#: engine/endpoints.php:82
+msgid "This endpoint does not exist"
+msgstr "Точки вещания не существует"
+
+#: engine/endpoints.php:106 engine/menu.php:22
+msgid "Endpoints"
+msgstr "Точки вещания"
+
+#: engine/endpoints.php:107
+msgid ""
+"Manage endpoints: add, edit, remove, connect/disconnect broadcasting "
+"endpoints"
+msgstr ""
+"Управление точками вещания: добавление, удаление, редактирование, "
+"подключение и отключение точек"
+
+#: engine/interface.php:53
+msgid "404: Not Found"
+msgstr "404: Не найдено"
+
+#: engine/interface.php:54
+msgid "The path you are trying to access is invalid."
+msgstr "Указанный путь не существует."
+
+#: engine/interface.php:62
+msgid "username"
+msgstr "имя пользователя"
+
+#: engine/interface.php:64
+msgid "go"
+msgstr "войти"
+
+#: engine/interface.php:65
+msgid "Neoton: broadcast management"
+msgstr "Neoton: управление вещанием"
+
+#: engine/interface.php:75
+msgid "System error"
+msgstr "Системная ошибка"
+
+#: engine/lang.php:6
+msgid "System or network error"
+msgstr "Системная или сетевая ошибка"
+
+#: engine/lang.php:7
+msgid "Track metadata has been updated"
+msgstr "Данные композиции сохранены"
+
+#: engine/lang.php:8
+msgid "Endpoint info has been updated"
+msgstr "Точка вещания обновлена"
+
+#: engine/lang.php:9
+msgid "Schedule has been associated with the endpoint"
+msgstr "Расписание для точки вещания задано"
+
+#: engine/lang.php:10
+msgid "Error"
+msgstr "Ошибка"
+
+#: engine/lang.php:11
+msgid "Removing the track"
+msgstr "Удаление композиции"
+
+#: engine/lang.php:12
+msgid "Are you sure that you want to remove selected track?"
+msgstr "Вы уверены, что хотите удалить эту композицию?"
+
+#: engine/lang.php:13
+msgid "Removing the endpoint"
+msgstr "Удаление точки вещания"
+
+#: engine/lang.php:14
+msgid "Are you sure that you want to remove selected endpoint?"
+msgstr "Вы уверены что хотите удалить эту точку вещания?"
+
+#: engine/lang.php:15
+msgid "Removing the playlist"
+msgstr "Удаление плейлиста"
+
+#: engine/lang.php:16
+msgid "Are you sure that you want to remove selected playlist?"
+msgstr "Вы уверены, что хотите удалить этот плейлист?"
+
+#: engine/lang.php:17
+msgid "Removing the schedule"
+msgstr "Удаление расписания"
+
+#: engine/lang.php:18
+msgid "Are you sure that you want to remove selected schedule?"
+msgstr "Вы уверены, что хотите удалить это расписание?"
+
+#: engine/lang.php:19
+msgid "Your browser does not support WebSockets"
+msgstr "Ваш браузер не поддерживает WebSockets"
+
+#: engine/lang.php:20
+msgid "Socket disconnected"
+msgstr "Сокет отключился"
+
+#: engine/lang.php:21
+msgid "Socket is not connected"
+msgstr "Сокет не подключен"
+
+#: engine/lang.php:22
+msgid "Control server registration error"
+msgstr "Ошибка регистрации на сервере управления"
+
+#: engine/lang.php:23
+msgid "Streaming servers have been restarted"
+msgstr "Генераторы потоков перезапущены"
+
+#: engine/lang.php:24
+msgid "Could not restart streaming servers"
+msgstr "Не удалось перезапустить генераторы потоков"
+
+#: engine/lang.php:25
+msgid "Endpoints info reloaded"
+msgstr "Точки вещания синхронизированы"
+
+#: engine/lang.php:26
+msgid "Endpoint info reload error"
+msgstr "Не удалось синхронизировать точки вещания"
+
+#: engine/library.php:12
+msgid "Artist name can not be empty or longer than 64 characters"
+msgstr ""
+"Поле исполнителя не может быть пустым и его длина не может превышать 64 "
+"символа"
+
+#: engine/library.php:20
+msgid "Title can not be empty or longer than 64 characters"
+msgstr ""
+"Поле названия не может быть пустым и его длина не может превышать 64 символа"
+
+#: engine/library.php:28
+msgid "Could not save the file"
+msgstr "Не удалось сохранить файл"
+
+#: engine/library.php:51
+msgid "This track does not exist"
+msgstr "Такой композиции не существует"
+
+#: engine/library.php:66
+msgid "Search tracks in the media library"
+msgstr "Поиск композиций в библиотеке"
+
+#: engine/library.php:88 engine/menu.php:27
+msgid "Library"
+msgstr "Библиотека"
+
+#: engine/library.php:89
+msgid ""
+"Media library management: add, remove, edit metadata of the audio tracks"
+msgstr ""
+"Управление библиотекой композиций: добавление, удаление, редактирование "
+"метаданных треков"
+
+#: engine/main.php:3
+msgid "Control panel"
+msgstr "Панель управления"
+
+#: engine/main.php:4
+msgid "Current status of the Neoton network"
+msgstr "Состояние сети Neoton"
+
+#: engine/menu.php:12 engine/playlists.php:43
+msgid "Playlists"
+msgstr "Плейлисты"
+
+#: engine/pgsql.php:24 engine/pgsql.php:26
+msgid "Could not connect to the database, sorry."
+msgstr "Не удалось подключиться к базе данных."
+
+#: engine/pgsql.php:48 engine/pgsql.php:51
+msgid "Could not execute the database query."
+msgstr "Не удалось выполнить запрос к базе данных."
+
+#: engine/playlists.php:10
+msgid "Playlist name can not be empty"
+msgstr "Название плейлиста не может быть пустым"
+
+#: engine/playlists.php:24
+msgid "This playlist does not exist"
+msgstr "Такого плейлиста не существует"
+
+#: engine/playlists.php:44
+msgid "Playlists management: add, remove, edit playlists"
+msgstr ""
+"Управление списками воспроизведения: добавление, удаление, редактирование"
+
+#: engine/schedule.php:11
+msgid "Schedule name can not be empty"
+msgstr "Название расписания не может быть пустым"
+
+#: engine/schedule.php:47
+msgid "Schedule management: add, remove, edit timetables of the schedule"
+msgstr ""
+"Управление расписаниями: добавление, удаление, редактирование временной "
+"таблицы расписания"
