@@ -4,7 +4,7 @@
 set("log.level", <?php echo(LS_LOG_LEVEL); ?>)
 
 set("log.file", true)
-set("log.file.path", "<?php echo(LS_LOG_DIR); ?>")
+set("log.file.path", "<?php echo(LS_LOG_DIR); ?>/endpoint_<?php echo($liq['endpoint']['endpoint_id']); ?>.log")
 
 set("harbor.bind_addr", "0.0.0.0")
 set("harbor.icy", true)
