@@ -3,11 +3,12 @@
 
 set("log.level", <?php echo(LS_LOG_LEVEL); ?>)
 
-set("log.file", false)
+set("log.file", true)
+set("log.file.path", "<?php echo(LS_LOG_DIR); ?>")
 
 set("harbor.bind_addr", "0.0.0.0")
 set("harbor.icy", true)
-set("log.stdout", true)
+set("log.stdout", false)
 
 
 <?php foreach ($liq['playlists'] as $pls): ?>

@@ -28,6 +28,9 @@ define ('LS_INTERPRETER_PATH', '/usr/bin/liquidsoap');
 // control process (neoton-daemon)
 define ('LS_LOG_LEVEL', 4);
 
+// Where to save liquidsoap interpreter's log
+define ('LS_LOG_DIR', '/var/log/neoton');
+
 // Where to save generated playlist files
 define ('LS_PLAYLIST_DIR', '/var/run/neoton/playlists');
 
