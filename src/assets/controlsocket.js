@@ -1,5 +1,6 @@
 var
-	controlConnection = null;
+	controlConnection = null,
+	restartAfterReload = null;
 
 function cs_log (mesg, level)
 {
@@ -122,6 +123,12 @@ function cs_processCommand(commandLine)
 			switch (commands[1])
 			{
 				case "OK" :
+					if (restartAfterReload)
+					{
+						cs_restartEndpoints(restartAfterReload, false);
+						restartAfterReload = null;
+					}
+
 					showToast(LANG.endpoints_reloaded);
 					break;
 
@@ -133,10 +140,17 @@ function cs_processCommand(commandLine)
 	}
 }
 
-function cs_restartEndpoints (endpointId)
+function cs_restartEndpoints (endpointId, reloadFirst)
 {
 	endpointId = endpointId || '*';
-	cs_send("RESTART "+endpointId);
+
+	if (reloadFirst)
+	{
+		restartAfterReload = endpointId;
+		cs_reloadEndpoints();
+	}
+	else
+		cs_send("RESTART "+endpointId);
 }
 
 function cs_reloadEndpoints()

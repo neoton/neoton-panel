@@ -253,7 +253,7 @@ function editEndpoint (event, form)
 		{
 			case 0 :
 				showToast(LANG.endpoint_updated);
-				cs_restartEndpoints(formData['endpoint-id']);
+				cs_restartEndpoints(formData['endpoint-id'], true);
 				break;
 
 			default :
